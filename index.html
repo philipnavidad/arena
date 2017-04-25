@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Panorama</title>
+    <script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/AltspaceVR/AltspaceSDK/v2.4.2/dist/altspace.min.js"></script>
+  </head>
+  <body>
+    <a-scene altspace="fullspace: true">
+      <a-assets>
+        <a-asset-item id="arena" src="arena.dae"></a-asset-item>
+        </a-assets>
+      <a-entity collada-model="#arena"></a-entity>
+    </a-scene>
+  </body>
+</html>
